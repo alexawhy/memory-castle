@@ -15,7 +15,14 @@ In Memory Castle, users will be able to:
 - [ ] View free-floating building blocks
 
 ## Wireframes 
+**Building Mode**
+![wireframe building mode](assets/wireframe-building-mode.jpg)
 
+**Free-floating Mode**
+![wireframe free-floating mode](assets/wireframe-free-float.jpg)
+
+**New Building Block**
+![wireframe new building block](assets/wireframe-new-block.jpg)
 
 ## Architecture and Technology 
 
