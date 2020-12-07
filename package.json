@@ -1,7 +1,7 @@
 {
   "name": "memory-castle",
   "version": "1.0.0",
-  "description": "A JavasCript project which create and store 3D memory building blocks.",
+  "description": "A JavaScript project which create and store 3D memory building blocks.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
