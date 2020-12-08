@@ -3,9 +3,9 @@ body {
   background: linear-gradient(90deg, $unbleached-silk, $baby-pink)
 }
 
-h1, h2 {
+h1, .session-title {
   text-align: center;
-  font-family: 'Press Start 2P', cursive;
+  font-family: $pixel;
 }
 
 h1 {
@@ -18,6 +18,6 @@ h2 {
 }
 
 h3 {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: $sans-serif;
 }
 
