@@ -6,6 +6,10 @@ h1, h2 {
   font-family: 'Press Start 2P', cursive;
 }
 
+h1 {
+  font-size: 1.5em;
+}
+
 h2 {
   font-size: 1em;
 }
@@ -20,6 +24,7 @@ main {
   border: 1px solid green;
   display: flex;
   flex-direction: row;
+  box-sizing: content-box;
 }
 
 .left-sidebar {
@@ -33,16 +38,31 @@ main {
 
 .main-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 65vw;
 }
 
-.main-canvas {
-  width: 45vw;
-  border: 1px solid red;
+.topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.right-sidebar {
+.title-mid {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 45vw;
+  border: 1px solid orange;
+}
+
+.title-right {
   width: 20vw;
   border: 1px solid purple;
+}
+
+.main-canvas {
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
 }
