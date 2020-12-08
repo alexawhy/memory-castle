@@ -32,7 +32,7 @@ In Memory Castle, users will be able to:
 ## Implementation Timeline 
 
 ### 2020/12/07
-- Setup file structure and hosting on heroku
+- Setup file structure
 - Learn three.js
 
 ### 2020/12/08
