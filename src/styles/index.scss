@@ -1,68 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Press+Start+2P&display=swap');
 
-h1, h2 {
-  text-align: center;
-  font-family: 'Press Start 2P', cursive;
-}
-
-h1 {
-  font-size: 1.5em;
-}
-
-h2 {
-  font-size: 1em;
-}
-
-h3 {
-  font-family: 'Noto Sans', sans-serif;
-}
-
-main {
-  width: 80vw;
-  margin: 10px auto;
-  border: 1px solid green;
-  display: flex;
-  flex-direction: row;
-  box-sizing: content-box;
-}
-
-.left-sidebar {
-  width: 15vw;
-  border: 1px solid blue;
-}
-
-.new-blocks {
-  height: 60vh;
-}
-
-.main-content {
-  display: flex;
-  flex-direction: column;
-  width: 65vw;
-}
-
-.topbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.title-mid {
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  width: 45vw;
-  border: 1px solid orange;
-}
-
-.title-right {
-  width: 20vw;
-  border: 1px solid purple;
-}
-
-.main-canvas {
-  width: 100%;
-  height: 100%;
-  border: 1px solid red;
-}
+@import './color.scss';
+@import './reset.scss';
+@import './layout.scss';
+@import './left-sidebar.scss';
+@import './main.scss';

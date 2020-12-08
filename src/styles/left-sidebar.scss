@@ -1,0 +1,15 @@
+.left-sidebar {
+  position: absolute;
+  width: 10vw;
+  min-width: 100px;
+  background-color: $white-40;
+  padding: 15px;
+  top: 50%; 
+  transform: translate(0%, -50%);
+  border-radius: 0px 15px 15px 0px;
+  box-shadow: 2px 2px 5px 2px $gray-5;
+}
+
+.new-blocks {
+  height: 50vh;
+}
