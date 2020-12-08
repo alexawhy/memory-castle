@@ -17,10 +17,12 @@ main {
     font-family: $pixel;
     border-radius: 10px;
     box-shadow: 2px 2px 5px 2px $gray-5;
+    transition: 0.15s;
 
     &:hover {
       transform: translate(0px, -2px);
       background-color: #faedcb66;
+      transition: 0.15s;
     }
   }
 }
