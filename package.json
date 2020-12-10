@@ -37,7 +37,6 @@
     "not dead"
   ],
   "dependencies": {
-    "gsap": "^3.5.1",
-    "three": "^0.123.0"
+    "babylonjs": "^4.2.0"
   }
 }
