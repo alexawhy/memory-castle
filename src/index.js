@@ -1,2 +1,2 @@
-import "./scripts/left/new_block";
+import "./scripts/new-block/left-sidebar";
 import "./styles/index.scss";
