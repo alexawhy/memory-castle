@@ -16,7 +16,7 @@ const createScene = () => {
 
   // light
   // const pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(1, 10, 1), scene);
-  const hemisphericlight = new BABYLON.HemisphericLight("hemisphericlight", new BABYLON.Vector3(2, 2, 0), scene);
+  const hemisphericlight = new BABYLON.HemisphericLight("hemisphericlight", new BABYLON.Vector3(1, 2, 0), scene);
   hemisphericlight.intensity = 1.2;
 
   // create a cube
