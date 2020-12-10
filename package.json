@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
+    "start:local": "webpack-dev-server --mode development --host 0.0.0.0 --hot --open --useLocalIp --config webpack.dev.js",
     "webpack:watch": "webpack --watch --config webpack.dev.js",
     "webpack:build": "webpack --config webpack.prod.js --optimize-minimize"
   },
