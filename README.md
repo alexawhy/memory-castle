@@ -27,13 +27,13 @@ In Memory Castle, users will be able to:
 ## Architecture and Technology 
 
 - `JavaScript`
-- `three.js` for 3D visualization 
+- `Babylon.js` for 3D visualization 
 
 ## Implementation Timeline 
 
 ### 2020/12/07
 - Setup file structure
-- Learn three.js
+- Learn Babylon.js
 
 ### 2020/12/08
 Phase 1:
